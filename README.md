@@ -2,6 +2,8 @@
 
 1. The notebook play_with_earth2studio has DLWP, Cordiff over Taiwan and SFNO
 
+2. AIFS needs more than 40 GB GPU RAM, so failed on Colab, need to test on H100
+
 from earth2studio.models.px.aifs import AIFS
 
 from earth2studio.models.px.aurora import Aurora
